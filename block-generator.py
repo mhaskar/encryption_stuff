@@ -34,5 +34,4 @@ cprint("\t final block length : %s bits"%l,"red")
 cprint("\t padding with       : %s bits"%left_char,"red")
 cprint("\t last data value    : %s"%str(binary_data[last_index:len(binary_data)]),"red")
 #print "final block length is {0} padding with {1} to equal 64-bit : {2}".format(l,left_char,left_bits_data)
-padding_number = to_index - len(binary_data)
 #################################### END OF BLOCKING AND PADDING ####################################
