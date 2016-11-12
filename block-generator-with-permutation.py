@@ -48,17 +48,5 @@ cprint("[+]Final hex encrypted data","yellow")
 #print "".format(int(final_encrypted_data),)
 print hex(int(final_encrypted_data,2)) 
 print last_padding_address
-#f = open("z.data","wb")
-#f.write()
-#print last_padding_address
-#def remove_padding(lbd):
-# for i in range(len(left_char)):
-#	 print lbd
-
-#remove_padding
-
-#final_encrypted_data = "".join(encrypted_data)
-#remove_padding(final_encrypted_data)
-#print "final block length is {0} padding with {1} to equal 64-bit : {2}".format(l,left_char,left_bits_data)
 padding_number = to_index - len(binary_data)
 #################################### END OF BLOCKING AND PADDING ####################################
